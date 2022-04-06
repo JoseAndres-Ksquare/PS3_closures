@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+    height: auto;
+    color: white;
+    
+}
+.titles{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+}
+i{
+    font-size: 30px;
+    opacity: 80%;
+}
+p{
+    font-family: 'Average Sans', sans-serif;
+    width: 180px;
+}
+.item-1{
+    background-color: #e28525;
+    padding: 30px;
+    border-radius: 10px 0 0 10px;
+}
+.item-2{
+    background-color: #016972;
+    padding: 30px;
+}
+.item-3{
+    background-color: #00403f;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;;
+}
+.btn-item-1{
+    background-color: white;
+    color: #e28525;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    width: 120px;
+    font-size: 14px;
+    transition: all 1s ease;
+}
+.btn-item-1:hover{
+    background: rgb(248, 92, 36);
+    color: black;
+
+}
+
+.btn-item-2{
+    background-color: white;
+    color: #016972;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    width: 120px;
+    font-size: 14px;
+    transition: all 1s ease;
+}
+.btn-item-2:hover{
+    background: rgb(50, 219, 219);
+    color: black;
+
+}
+.btn-item-3{
+    background-color: white;
+    color: #00403f;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    width: 120px;
+    font-size: 14px;
+    transition: all 1s ease;
+}
+.btn-item-3:hover{
+    background: rgb(24, 136, 131);
+    color: black;
+
+}
