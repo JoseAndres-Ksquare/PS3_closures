@@ -8,3 +8,7 @@
 ## Question 2:
 
 > ### answer: ('foo:' 5),('bar:' 10),('baz:' 12)
+
+## Question 3:
+
+> ### answer: 10
