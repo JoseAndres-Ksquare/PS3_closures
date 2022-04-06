@@ -7,4 +7,4 @@
 
 ## Question 2:
 
-> ### answer:
+> ### answer: ('foo:' 5),('bar:' 10),('baz:' 12)
