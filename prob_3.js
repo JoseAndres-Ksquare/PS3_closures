@@ -1,9 +1,10 @@
 const donkeyGame = (amountOfTries) => {
-    let tail = 5;
+    let tail = Math.floor(Math.random() * 10);
+console.log(tail);
     let tries = 0;
     
         return function(guess){
-            for(let i = 0; i<guess.length ; ++i){
+            for(let i = 0; i<guess.length+1 ; ++i){
             if(tries === amountOfTries){
                 return 'You have no tries left';
             }else{
@@ -24,6 +25,4 @@ const donkeyGame = (amountOfTries) => {
         return "you didn't find the number";
     }
 }
-console.log(donkeyGame(7)([1,2,4,3,6]));
-
-
+console.log(donkeyGame(5)([1,5,3,4,5]));
